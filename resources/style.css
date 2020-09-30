@@ -1,0 +1,709 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    /* border: 1px red solid; */
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(250, 255, 253);
+    font-size: 1.6rem;
+    color: #fff;
+    background: silver;
+    overflow-x: hidden;
+}
+
+/* ===== ========= ======== ======= */
+/* Resusable Component */
+/* ===== ========= ======== ======= */
+
+.container {
+    max-width: 119.4rem;
+    margin: 0 auto;
+}
+
+.row h3{
+    color: #ffc61a;
+    font-size: 3.5rem;
+}
+
+.row h2{
+    font-size: 4.3rem;
+}
+
+/* ======================= */
+/* Home Section */
+/* ======================= */
+
+#home {
+    background: url("../img/Header/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 74rem;
+}
+
+.menu {
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    margin: 4rem 6.5rem;
+}
+
+nav {
+    width: 65rem;
+    margin-left: auto;
+    float: right;
+    margin-top: 4rem;
+    margin-right: 11rem;
+}
+
+nav ul {
+    display: inline-block;
+    width: 71rem;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 9.6rem;
+    height: 3.6rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: .8rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+nav ul li:hover {
+    background: #ffc61a;
+    border-radius: 2rem;
+}
+
+nav ul li:hover a{
+    color: black;
+    font-weight: bold;
+}
+
+
+/* CAB */
+
+.cab .row {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.cab .row h2 {
+    font-size: 3.5rem;
+    color: #ffc61a;
+    text-transform: uppercase;
+}
+
+.cab .row h1 {
+    font-size: 7.4rem;
+}
+
+.cab .row h6 {
+    font-size: 2rem;
+    letter-spacing: 11.52px;
+}
+
+.cab .row .car {
+    margin-top: 6rem;
+}
+
+/* ============================ */
+/* Service-section */
+/* ============================ */
+
+#service {
+    background: #ffc61a;
+    height: 71rem;
+}
+
+.service-section .row {
+    color: #101010;
+    overflow: hidden;
+    padding-top: 14rem;
+}
+
+.service-section .cab-service-area {
+    width: 50%;
+    float: left;
+}
+
+.service-section .cab-service-area h4 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.service-section .cab-service-area h2 {
+    font-size: 5rem;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+}
+
+.service-section .cab-service-area p {
+    font-size: 1.8rem;
+    margin-top: 3.5rem;
+}
+
+.service-section .cab-service-area .btn {
+    margin-top: 5rem;
+    cursor: pointer;
+    width: 17rem;
+    height: 4.8rem;
+    color: #fff;
+    background: #101010;
+    font-size: 2.2rem;
+    border-radius: 1rem;
+}
+
+
+.service-section h2 {
+    background: #101010;
+    color: #fff;
+    font-size: 3.4rem;
+    padding: 1.5rem 0;
+}
+
+.service-section span {
+    color: #ffc61a;
+}
+
+.service-section .form-area h2{
+    padding-left: 5%;
+}
+
+.service-section .form-area {
+     float: right;
+    width: 40%;
+    background: #fff
+}
+
+.service-section .wrapper {
+      text-align: left;  
+    margin-left: 1rem;
+    margin:  2rem auto;
+}
+
+.service-section .form-area input{
+    padding: 1rem;
+    width: 40%;
+   margin-bottom: 3rem ;
+    margin-left: 2rem ;
+    border-bottom: 2px solid silver;
+    display: inline-block;
+    font-size: 2rem;
+    
+}
+.service-section .form-area select{
+    width: 90%;
+    font-size: 2rem;
+    margin-left: 2rem;
+    border-bottom: 2px solid silver;
+}
+
+.service-section .form-area button{
+    margin: 5rem auto auto 2rem;
+    font-size: 3rem;
+    text-align: center;
+    width: 90%;
+    padding: 1rem;
+    color: #fff;
+    background: #101010;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+
+*{
+    border: none;
+}
+
+
+
+/* ======================= */
+/* Tariff Section */
+/* ======================= */
+
+#tariff {
+    background: #fff;
+    padding-bottom: 6rem;
+}
+
+.tariff-section .row {
+    position: relative;  
+}
+
+
+.tariff-section .head{
+    text-align: center;
+}
+
+.tariff-section h2 {
+    margin: 0 auto;
+    padding-top: 5.8rem;
+    color: #101010;
+    font-size: 3.5rem;
+}
+
+.tariff-section .head h2:nth-child(2){
+    padding-top: 0;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.tariff-section h2 span {
+    color: #ffc61a
+}
+
+.tariff-section img {
+    position: absolute;
+    left: 1rem;
+    top: -8rem;
+    max-width: 100%;
+    display: block;
+}
+
+.tariff-section .column {
+    background: #f5f4f2;
+    padding-bottom: 3rem;
+    width: 31%;
+    color: #101010;
+    text-align: center;
+    margin-top: 13rem;
+    display: inline-block;
+    position: relative;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.tariff-section .column h3 {
+    font-size: 3rem;
+    margin-top: 12.5rem;
+}
+
+.tariff-section .column p {
+	font-size: 1.8rem;
+	margin-top: 2rem;
+	width: 87%;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+
+.tariff-section .column h2 {
+    font-size: 4.2rem;
+    color: #ffc61a;
+}
+
+.tariff-section .column h2{
+    padding-top: 4rem;
+}
+
+.tariff-section .column button {
+    margin-top: 3.5rem;
+    width: 17rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    color: #101010;
+    font-size: 2.3rem;
+    background: #ffc61a;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tariff-section .column:nth-child(2){
+    background: #ffc61a;
+}
+
+.tariff-section .column:nth-child(2) h2 {
+    color: #101010;    
+}
+
+.tariff-section .column:nth-child(2) button{
+    background:#101010;
+    color: #fff;
+}
+
+
+.tariff-section .column:nth-child(2) .star {
+	position: absolute;
+	top: 37.8rem;
+	right: 0;
+	margin-left: auto;
+}
+
+
+/* ===================================== */
+/* Skill Section */
+/* ===================================== */
+
+#skill{
+    background: silver;
+    padding-bottom: 8rem;
+    background: url(../img/Header/header-bg.jpg);
+    padding-top: 4rem;
+}
+
+.skill-section .row{
+    
+    text-align: center;
+}
+
+.skill-section .row:nth-child(2){
+    margin-top: 0;
+}
+
+.skill-section .row .column {
+	width: 40%;
+	display: inline-block;
+	text-align: left;
+	margin-left: 6rem;
+    margin-right: 5rem;
+    overflow: hidden;
+    margin-top: 8.5rem;
+}
+
+.skill-section .icon{
+    float: left;
+    max-width: 20%;
+}
+
+.skill-section .icon img{
+    max-width: 100%;
+    display: block;
+}
+
+.skill-section .description{
+    width: 80%;
+    float: right;
+    
+}
+
+.skill-section .description h4{
+    font-size: 2.5rem;
+    color: #ffc61a;
+    margin-bottom: 1rem;
+}
+
+.skill-section .description p{
+    font-size: 1.8rem;
+    margin-top: .5rem;
+}
+
+.skill-section button{
+    margin-top: 3.5rem;
+    width: 17rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    color: #101010;
+    font-size: 2.3rem;
+    background: #ffc61a;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ============================= */
+/* APP Section */
+/* ============================== */
+
+.app-section {
+    background: #fff;
+    color: #101010;
+}
+
+.app-section .row{
+    padding-top: 4rem;
+    overflow: hidden;
+   
+}
+
+.app-section .row:first-child{
+    text-align: center;
+}
+
+.app-section .left-area{
+    width: 45%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 4rem;
+}
+
+.app-section .left-area p{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.app-section .left-area img{
+    padding-right: 3rem;
+}
+
+.app-section .left-area p:nth-child(2){
+    font-size: 1.8rem;
+    margin-bottom: 8rem;
+}
+
+.app-section .right-area{
+    float: right;
+    width: 40%;
+}
+
+/* ============================ */
+/*  Testimonial Section */
+/* ============================ */
+
+#testimonial{
+    background: silver;
+    padding-bottom: 5rem;
+    background: url(../img/Header/header-bg.jpg);
+    padding-top: 10rem;
+}
+
+.testimonial-section .row{
+    text-align: center;
+}
+
+.testimonial-section .row:nth-child(2){
+    margin-top: 10rem;
+}
+
+.testimonial-section .left-area{
+    width:48%;
+    display:inline-block; 
+    background: #101010;
+    overflow: hidden;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+      border-radius: 5rem;
+    margin-right: 1%;
+}
+
+.testimonial-section .left-area p{
+    font-size: 1.8rem;
+    text-align:left;
+    margin-bottom:1rem;
+    
+}
+
+.testimonial-section .left-area img{
+    float: left;
+    margin-top: 1rem;
+}
+
+.testimonial-section .left-area h3{
+    font-size: 2.5rem;
+    display: inline-block;
+    padding-right: 30rem;
+   margin-top: 1.5rem
+}
+
+.testimonial-section .left-area h4{
+    font-size: 1.8rem;
+        display: inline-block;
+    padding-right: 28rem;
+    
+}
+
+.testimonial-section .right-area{
+    width:48%;
+    display:inline-block; 
+    background: #101010;
+    overflow: hidden;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+      border-radius: 5rem;
+    margin-right: 1%;
+}
+
+.testimonial-section .right-area p{
+    font-size: 1.8rem;
+    text-align:left;
+    margin-bottom:1rem;
+    
+}
+
+.testimonial-section .right-area img{
+    float: left;
+     margin-top: 1rem;
+}
+
+.testimonial-section .right-area h3{
+    font-size: 2.5rem;
+    display: inline-block;
+    padding-right: 30rem;
+   margin-top: 1.5rem;
+}
+
+.testimonial-section .right-area h4{
+    font-size: 1.8rem;
+        display: inline-block;
+    padding-right: 28rem;
+    
+}
+
+/* ============================== */
+/* Call Section */
+/* ============================== */
+
+#call{
+    background: #ffc61a;
+    padding: 3rem 0;
+}
+
+.call-section .row {
+    text-align: center;
+    color: #101010;
+}
+
+.call-section .row h3{
+    color: #101010;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.call-section .row h2{
+    font-size: 7.2rem;
+    padding: 1rem 0;
+}
+
+/* ======================== */
+/* footer-section */
+/* ========================= */
+
+#footer{
+    background: url(../img/Contact/contact-bg.jpg);
+    padding: 8rem 0;
+    
+}
+
+.footer-section .column{
+    width: 30%;
+}
+
+.footer-section h4{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.footer-section h4::after{
+    content: "";
+    display: block;
+    background:#ffc61a;
+    width: 100%;
+    height: .5rem;
+    margin: 3rem 0;
+}
+
+.footer-section p{
+    font-size: 1.6rem;
+}
+
+.footer-section ul li{
+    display: inline-block;
+}
+
+.footer-section ul li a{
+    color: #ffc61a;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    transition: .5s;
+}
+
+.footer-section ul li a:hover{
+    background: #ffc61a;
+    color: #fff;
+    border-radius: 50%;
+    padding:1rem 2rem;
+    transform: rotate(360deg);
+}
+
+.footer-section ul li a i{
+    margin:4rem 0;
+}
+
+/*  */
+
+.footer-section .column{
+    display: inline-block;
+    margin: 0 1.5%;
+}
+
+.footer-section .center-column h6{
+    font-size: 2.5rem;
+    color:#ffc61a;
+    display:inline-block;
+    width:50%;
+    margin:1.5rem 0; 
+    font-weight: lighter;
+}
+
+.footer-section .center-column i{
+    font-size: 3rem;
+}
+
+.footer-section .center-column i:hover{
+    color: #ffc61a;
+}
+
+/*  */
+
+.footer-section .right-column i{
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 1.3rem
+}
+
+.footer-section .right-column p{
+    display: inline-block;
+    width: 80%;
+    margin-left: 5%;
+    
+}
+
+/* ===================== */
+/* Real Footer */
+/* ===================== */
+
+footer{
+    background: #040300;
+    color: #fff;
+    text-align: center;
+}
+
+footer .row{
+    padding: 1rem ;
+}
+
+
+
+
+
+
+
+
+
+

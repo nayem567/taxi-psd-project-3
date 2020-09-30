@@ -1,0 +1,246 @@
+
+/* ========================= */
+/* 1200px */
+/* ========================= */
+
+@media all and (max-width:1200px){
+
+    html{
+        font-size: 57.5%;
+    }
+    .cab .row .car {
+        width: 50%;
+        position: relative;
+        top: 15%;
+    }
+
+    .tariff-section .column:nth-child(2) .star {
+        top: 37rem;
+    }
+}
+
+
+/* ========================= */
+/* 992px */
+/* ========================= */
+
+@media all and (max-width:992px){
+
+    .cab .row h1 {
+        margin: 3rem 0;
+    }
+
+    .cab .row .car {
+        width: 50%;
+        margin-top: 12%;
+    }
+
+    .service-section .row {
+        margin: 0 4rem;
+    }
+
+    .skill-section .row .column {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .skill-section .icon {
+        max-width: 15%;
+        margin-right: 5%;
+    }
+
+    .app-section .left-area img { 
+        padding-bottom: 3rem;
+    }
+
+    .testimonial-section .left-area h3 {
+        padding-right: 20rem;
+    }
+
+    .testimonial-section .left-area h4 {
+        padding-right: 19rem;
+        margin-top: 1rem;
+    }
+
+    .testimonial-section .right-area h3 {
+        padding-right: 20rem;
+    }
+
+    .testimonial-section .right-area h4 {
+        padding-right: 19rem;
+        margin-top: 1rem;
+    }
+}
+
+/* ========================= */
+/* 768px */
+/* ========================= */
+
+/* ========================= */
+/* 480px */
+/* ========================= */
+
+@media all and ( max-width:768px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .mean-container .mean-bar {
+        background: none;
+    }
+
+    .cab .row h1 {
+        font-size: 5.4rem;
+    }
+
+    .cab .row h6 {
+        letter-spacing: 3.52px;
+    }
+
+    .cab .row .car {
+        width: 80%;
+    }
+
+    .service-section .cab-service-area h2 {
+        font-size: 4rem;
+        padding: 1rem;
+    }
+
+    #service{height: auto;}
+
+    .service-section .row {
+        padding-top: 8rem;
+    }
+
+    .service-section .cab-service-area {
+        width: 100%;
+        float: none;
+    }
+
+    .service-section .cab-service-area .btn {
+        margin: 5rem 0;
+    }
+
+    .service-section .form-area {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .tariff-section .column {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .tariff-section img {
+        left: 10%;
+    }
+
+    .tariff-section .column:nth-child(2) img {
+        top: -8rem;
+    }
+
+    #skill .row h3 {
+        color: #ffc61a;
+    }
+
+    .tariff-section .column:nth-child(2) .star {
+        top: 34.8rem;
+    }
+
+    .mean-container .mean-nav {
+        background: none;
+    }
+
+    .mean-container .mean-nav ul li a {
+         padding: .5rem; 
+        margin-left: 2rem;
+        text-align: center;
+    }
+
+    #skill{background-size: cover;}
+
+    .row h3 {
+        color: #101010;
+        margin-bottom: 1.5rem;
+    }
+
+    .skill-section .row .column {
+        width: 80%;
+    }
+
+    .app-section .left-area {
+         margin-top: 0;
+    }
+
+    .app-section .left-area {
+        width: 85%;
+        float: none; 
+        margin-left: 0; 
+        margin-top: 4rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .app-section .left-area p:nth-child(2) {
+        margin-bottom: 4rem;
+    }
+
+    .app-section .right-area {
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-left: 20%;
+    }
+
+    .testimonial-section .left-area, .testimonial-section .right-area{
+        width: 95%;
+    }
+
+    .testimonial-section  h3 {
+        color: #ffc61a;
+    }
+
+    .testimonial-section .row:nth-child(2) {
+        margin-top: 5rem;
+    }
+
+    .call-section .row h2 {
+        font-size: 4.5rem;
+        padding: 2rem 0;
+    }
+
+    .call-section .row h3 {
+        font-size: 3rem;
+    }
+
+    #footer {
+         padding: 4rem 0;
+    }
+
+    .footer-section .column {
+        width: 100%;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .footer-section .center-column h6 {
+        margin-top: 2rem;
+    }
+
+    .footer-section .right-column p {
+        text-align: left;
+        margin-left: 4rem;
+    }
+
+
+    
+
+}
+
+
+
+
+
+
+
+
