@@ -160,7 +160,9 @@ nav ul li:hover a{
     font-size: 5rem;
     margin-top: 1.5rem;
     text-transform: uppercase;
+	padding: 20px;
 }
+
 
 .service-section .cab-service-area p {
     font-size: 1.8rem;
